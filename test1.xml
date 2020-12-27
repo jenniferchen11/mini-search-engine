@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test1>
+    <webpage name="siteA">
+        <link name="siteC" />
+        <link name="siteD" />
+    </webpage>
+    <webpage name="siteB">
+        <link name="siteA" />
+    </webpage>
+    <webpage name="siteC">
+        <link name="siteA" />
+        <link name="siteE" />
+    </webpage>
+    <webpage name="siteD">
+        <link name="siteE" />
+    </webpage>
+    <webpage name="siteE">
+        <link name="siteA" />
+        <link name="siteD" />
+    </webpage>
+</test1>
